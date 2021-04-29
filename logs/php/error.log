@@ -1,0 +1,54 @@
+[26-Apr-2021 17:30:22 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/update.php on line 175
+[26-Apr-2021 17:30:22 UTC] PHP Stack trace:
+[26-Apr-2021 17:30:22 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:0
+[26-Apr-2021 17:30:22 UTC] PHP   2. do_action_ref_array() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:138
+[26-Apr-2021 17:30:22 UTC] PHP   3. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:551
+[26-Apr-2021 17:30:22 UTC] PHP   4. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[26-Apr-2021 17:30:22 UTC] PHP   5. wp_version_check() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[26-Apr-2021 17:30:22 UTC] PHP   6. trigger_error() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/update.php:175
+[27-Apr-2021 02:19:16 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/index.php on line 9
+[27-Apr-2021 02:19:16 UTC] PHP Stack trace:
+[27-Apr-2021 02:19:16 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:0
+[27-Apr-2021 02:19:16 UTC] PHP   2. require() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:17
+[27-Apr-2021 02:19:16 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php:19
+[27-Apr-2021 02:19:16 UTC] PHP   4. include() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template-loader.php:106
+[27-Apr-2021 02:20:49 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/index.php on line 9
+[27-Apr-2021 02:20:49 UTC] PHP Stack trace:
+[27-Apr-2021 02:20:49 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:0
+[27-Apr-2021 02:20:49 UTC] PHP   2. require() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:17
+[27-Apr-2021 02:20:49 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php:19
+[27-Apr-2021 02:20:49 UTC] PHP   4. include() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template-loader.php:106
+[27-Apr-2021 07:53:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/update.php on line 175
+[27-Apr-2021 07:53:32 UTC] PHP Stack trace:
+[27-Apr-2021 07:53:32 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:0
+[27-Apr-2021 07:53:32 UTC] PHP   2. do_action_ref_array() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:138
+[27-Apr-2021 07:53:32 UTC] PHP   3. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:551
+[27-Apr-2021 07:53:32 UTC] PHP   4. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[27-Apr-2021 07:53:32 UTC] PHP   5. wp_version_check() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[27-Apr-2021 07:53:32 UTC] PHP   6. trigger_error() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/update.php:175
+[29-Apr-2021 16:29:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/index.php on line 6
+[29-Apr-2021 20:52:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getfooter() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/single.php:9
+Stack trace:
+#0 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php(19): require_once('/Users/tejiri/L...')
+#2 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php(17): require('/Users/tejiri/L...')
+#3 {main}
+  thrown in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/single.php on line 9
+[29-Apr-2021 21:46:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'unversity_files' not found or invalid function name in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php on line 292
+[29-Apr-2021 21:46:38 UTC] PHP Stack trace:
+[29-Apr-2021 21:46:38 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:0
+[29-Apr-2021 21:46:38 UTC] PHP   2. require() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:17
+[29-Apr-2021 21:46:38 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php:19
+[29-Apr-2021 21:46:38 UTC] PHP   4. include() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template-loader.php:106
+[29-Apr-2021 21:46:38 UTC] PHP   5. get_header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/single.php:1
+[29-Apr-2021 21:46:38 UTC] PHP   6. locate_template() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/general-template.php:48
+[29-Apr-2021 21:46:38 UTC] PHP   7. load_template() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template.php:676
+[29-Apr-2021 21:46:38 UTC] PHP   8. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template.php:730
+[29-Apr-2021 21:46:38 UTC] PHP   9. wp_head() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/header.php:4
+[29-Apr-2021 21:46:38 UTC] PHP  10. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/general-template.php:3009
+[29-Apr-2021 21:46:38 UTC] PHP  11. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[29-Apr-2021 21:46:38 UTC] PHP  12. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[29-Apr-2021 21:46:38 UTC] PHP  13. wp_enqueue_scripts() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[29-Apr-2021 21:46:38 UTC] PHP  14. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/script-loader.php:2027
+[29-Apr-2021 21:46:38 UTC] PHP  15. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[29-Apr-2021 21:46:38 UTC] PHP  16. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
