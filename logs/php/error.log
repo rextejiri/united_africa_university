@@ -68,3 +68,272 @@ Stack trace:
 #2 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php(17): require('/Users/tejiri/L...')
 #3 {main}
   thrown in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/index.php on line 4
+[01-May-2021 15:11:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/page.php on line 21
+[01-May-2021 15:18:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/page.php on line 19 and exactly 1 expected in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/post.php:7329
+Stack trace:
+#0 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/page.php(19): wp_get_post_parent_id()
+#1 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/template-loader.php(106): include('/Users/tejiri/L...')
+#2 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php(19): require_once('/Users/tejiri/L...')
+#3 /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php(17): require('/Users/tejiri/L...')
+#4 {main}
+  thrown in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/post.php on line 7329
+[04-May-2021 16:24:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:26 UTC] PHP Stack trace:
+[04-May-2021 16:24:26 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:26 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:26 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:34
+[04-May-2021 16:24:26 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:26 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:26 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:26 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:26 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:26 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:26 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:26 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:26 UTC] PHP Stack trace:
+[04-May-2021 16:24:26 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:26 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:26 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:34
+[04-May-2021 16:24:26 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:26 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:26 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:26 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:26 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:26 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:26 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:26 UTC] PHP  11. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/functions.php on line 6362
+[04-May-2021 16:24:26 UTC] PHP Stack trace:
+[04-May-2021 16:24:26 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:26 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:26 UTC] PHP   3. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:175
+[04-May-2021 16:24:26 UTC] PHP   4. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:26 UTC] PHP   5. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:26 UTC] PHP   6. send_frame_options_header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:290
+[04-May-2021 16:24:26 UTC] PHP   7. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/functions.php:6362
+[04-May-2021 16:24:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:26 UTC] PHP Stack trace:
+[04-May-2021 16:24:26 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:0
+[04-May-2021 16:24:26 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:44
+[04-May-2021 16:24:26 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:26 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:26 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:26 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:26 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:26 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:26 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:26 UTC] PHP Stack trace:
+[04-May-2021 16:24:26 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:0
+[04-May-2021 16:24:26 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-cron.php:44
+[04-May-2021 16:24:26 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:26 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:26 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:26 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:26 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:26 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:26 UTC] PHP  10. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/includes/misc.php on line 1310
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:27 UTC] PHP   3. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:175
+[04-May-2021 16:24:27 UTC] PHP   4. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   5. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   6. wp_admin_headers() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP   7. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/includes/misc.php:1310
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php on line 9
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:9
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php on line 1051
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. wp_user_settings() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:70
+[04-May-2021 16:24:27 UTC] PHP   4. setcookie() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php:1051
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php on line 1052
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. wp_user_settings() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:70
+[04-May-2021 16:24:27 UTC] PHP   4. setcookie() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php:1052
+[04-May-2021 16:24:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:17
+[04-May-2021 16:24:27 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php:13
+[04-May-2021 16:24:27 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:27 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:27 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:27 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:27 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/index.php:17
+[04-May-2021 16:24:27 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-blog-header.php:13
+[04-May-2021 16:24:27 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:27 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:27 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:27 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:27 UTC] PHP  11. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:27 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:34
+[04-May-2021 16:24:27 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:27 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:27 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:27 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:27 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:27 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:34
+[04-May-2021 16:24:27 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:27 UTC] PHP   5. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:27 UTC] PHP   6. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:27 UTC] PHP   7. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   9. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP  10. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:27 UTC] PHP  11. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/functions.php on line 6362
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:27 UTC] PHP   3. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:175
+[04-May-2021 16:24:27 UTC] PHP   4. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   5. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   6. send_frame_options_header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:290
+[04-May-2021 16:24:27 UTC] PHP   7. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/functions.php:6362
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/includes/misc.php on line 1310
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:10
+[04-May-2021 16:24:27 UTC] PHP   3. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin.php:175
+[04-May-2021 16:24:27 UTC] PHP   4. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:27 UTC] PHP   5. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:27 UTC] PHP   6. wp_admin_headers() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:27 UTC] PHP   7. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/includes/misc.php:1310
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php on line 9
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. header() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:9
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php on line 1051
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. wp_user_settings() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:70
+[04-May-2021 16:24:27 UTC] PHP   4. setcookie() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php:1051
+[04-May-2021 16:24:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:95) in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php on line 1052
+[04-May-2021 16:24:27 UTC] PHP Stack trace:
+[04-May-2021 16:24:27 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:0
+[04-May-2021 16:24:27 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/index.php:115
+[04-May-2021 16:24:27 UTC] PHP   3. wp_user_settings() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-header.php:70
+[04-May-2021 16:24:27 UTC] PHP   4. setcookie() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/option.php:1052
+[04-May-2021 16:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP  10. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP  10. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP  10. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
+[04-May-2021 16:24:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 95
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP Warning:  array_merge(): Expected parameter 2 to be an array, string given in /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php on line 102
+[04-May-2021 16:24:28 UTC] PHP Stack trace:
+[04-May-2021 16:24:28 UTC] PHP   1. {main}() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:0
+[04-May-2021 16:24:28 UTC] PHP   2. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-admin/admin-ajax.php:22
+[04-May-2021 16:24:28 UTC] PHP   3. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-load.php:37
+[04-May-2021 16:24:28 UTC] PHP   4. require_once() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-config.php:77
+[04-May-2021 16:24:28 UTC] PHP   5. do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-settings.php:538
+[04-May-2021 16:24:28 UTC] PHP   6. WP_Hook->do_action() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/plugin.php:484
+[04-May-2021 16:24:28 UTC] PHP   7. WP_Hook->apply_filters() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:316
+[04-May-2021 16:24:28 UTC] PHP   8. university_features() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/class-wp-hook.php:292
+[04-May-2021 16:24:28 UTC] PHP   9. register_nav_menus() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-content/themes/united_africa_university_theme/functions.php:10
+[04-May-2021 16:24:28 UTC] PHP  10. array_merge() /Users/tejiri/Local Sites/united-africa-university-school-of-technology/app/public/wp-includes/nav-menu.php:102
